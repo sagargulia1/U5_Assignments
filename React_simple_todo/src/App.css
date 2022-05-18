@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+ display: flex;
+ justify-content: center;
+}
+body{
+  background-color:  #cecece;
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.marf{
+  margin-left: 10px;
+}
+
+.displaytask{
+  height: 450px;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin-top: 30px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.separate_task{
+  width: 620px;
+  height: auto;
+  min-height: 65px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 15px;
+  font-size: 45px;
+  padding: 10px;
+
+}
+.separate_task>div{
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  word-break: break-all;
+ }
+.separate_task>button{
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  border: solid 12px;
+  background-color: 
+  #cecece;
+  cursor: pointer;
+}
+#input{
+  min-width: 400px;
+  height: 65px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  font-size: 45px;
+  border: none;
+  justify-content: center;
+  font-size: 45px;
+  padding: 10px;
+ 
+}
+.inputdetails>button{
+  height: 65px;
+  width: 65px;
+  margin-left: 15px;
+  border-radius: 15px;
+  border: none;
+  font-size: 50px;
+
+}
+.inputdetails{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
