@@ -1,0 +1,55 @@
+#card {
+  height: 400px;
+  width: 600px;
+  border-radius: 5px;
+  background-color: #ffa500;
+  padding: 20px 60px 60px;
+  gap: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 80px;
+}
+#para{
+    font-size: 25px;
+    font-weight: 400;
+
+}
+#card1{
+    display: flex;
+}
+
+#right2{
+    margin-top: 250px;
+
+}
+#arrow{
+    font-size: 50px;
+    padding-left: 40px;
+    
+}
+#laft{
+    width: 40%;
+    padding-right: 40%;
+}
+#img{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+#btn{
+    background: black;
+    color: #fff;
+    padding:10px 30px;
+    font-size: 27px;
+    font-weight: 500;
+    border-radius: 1px;
+
+}
+#h2{
+font-size: 27px;
+
+}
+#h1{
+ font-size: 48px;
+ font-weight: bolder;
+ line-height: 1.4em;
+}
